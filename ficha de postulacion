@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FICHA DE PRESENTACION</title>
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <a href="index.html">← Volver a ofertas</a>
+
+        <h1> Ficha de Postulación</h1>
+        <p><strong>Puesto:</strong> Frontend Developer Trainee</p>
+        <hr>
+
+        <form>
+
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <label>Nombre Completo:</label>
+                <input type="text" placeholder="Tu nombre aquí">
+
+                <label>Correo Electrónico:</label>
+                <input type="email" placeholder="ejemplo@gmail.com">
+
+                <label>Teléfono:</label>
+                <input type="tel" placeholder="+51 999 999 999">
+            </fieldset>
+
+            <fieldset>
+                <legend>Perfil Técnico</legend>
+
+                <label>Link de GitHub:</label>
+                <input type="url" placeholder="https://github.com/usuario">
+
+                <label>Nivel de Inglés:</label>
+                <select>
+                    <option>Básico</option>
+                    <option>Intermedio</option>
+                    <option>Avanzado</option>
+                </select>
+
+                <label>Tecnologías (Marca las que sepas):</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> HTML5</label>
+                    <label><input type="checkbox"> CSS3</label>
+                    <label><input type="checkbox"> JavaScript</label>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Documentación</legend>
+
+                <label>Sube tu CV (PDF):</label>
+                <input type="file" accept=".pdf">
+
+                <label>Mensaje para el reclutador:</label>
+                <textarea rows="4"></textarea>
+            </fieldset>
+
+            <button type="submit"> ENVIAR POSTULACIÓN</button>
+
+            <p>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        background-color: #f2f2f2;
+                        margin: 40px;
+                    }
+
+                    h1 {
+                        color: #333;
+                    }
+
+                    .contenedor {
+                        background: white;
+                        padding: 20px;
+                        border-radius: 8px;
+                        max-width: 700px;
+                        margin: auto;
+                    }
+
+                    fieldset {
+                        border-radius: 8px;
+                        margin-bottom: 20px;
+                        padding: 15px;
+                    }
+
+                    legend {
+                        color: #0066cc;
+                        font-weight: bold;
+                    }
+
+                    input,
+                    select,
+                    textarea {
+                        width: 100%;
+                        padding: 8px;
+                        margin-top: 5px;
+                        margin-bottom: 15px;
+                    }
+
+                    .checkbox-group {
+                        display: flex;
+                        gap: 15px;
+                    }
+
+                    button {
+                        background-color: #1976d2;
+                        color: white;
+                        padding: 12px;
+                        border: none;
+                        border-radius: 5px;
+                        width: 100%;
+                        font-size: 16px;
+                        cursor: pointer;
+                    }
+
+                    button:hover {
+                        background-color: #0d5bb5;
+                    }
+                </style>
+
+            </p>
+
+        </form>
+
+    </div>
+
+</body>
